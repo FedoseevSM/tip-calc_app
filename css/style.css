@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-color: aqua;
+}
+
+input,
+button {
+  cursor: pointer;
+}
+
+.calc__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #fff;
+  max-width: 700px;
+  margin: 0 auto;
+}

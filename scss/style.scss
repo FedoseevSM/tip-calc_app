@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-color: aqua;
+}
+
+input,
+button {
+  cursor: pointer;
+}
+
+@import "_main";
+@import "_styleguide";
