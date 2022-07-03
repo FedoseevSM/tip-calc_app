@@ -1,0 +1,72 @@
+.body {
+  background-color: $lightCyan;
+}
+//! ./body
+.calc {
+  &__summ-block {
+    background-color: $veryDarkCyan;
+  }
+  &__values-title {
+    color: $white;
+    span {
+      color: $cyan;
+    }
+  }
+  &__input-title {
+    color: $cyan;
+  }
+  &__value {
+    color: $primary;
+  }
+}
+//! ./calc
+.input {
+  background-color: $veryLightCyan;
+  color: $veryDarkCyan;
+  text-align: right;
+  width: 100%;
+  line-height: 38px;
+  border-radius: 5px;
+  padding: 0 15px;
+  &:focus {
+    outline: 2px solid $primary;
+  }
+}
+//! ./input
+.btn {
+  background-color: $veryDarkCyan;
+  color: $white;
+  width: 100%;
+  padding: 16px 0;
+  border-radius: 5px;
+  &:hover {
+    background-color: $lightCyan;
+    color: $veryDarkCyan;
+  }
+  &:active {
+    background-color: $primary;
+    color: $veryDarkCyan;
+  }
+}
+.btn-reset {
+  background-color: $primary;
+  color: $veryDarkCyan;
+  width: 100%;
+  padding: 16px 0;
+  border-radius: 5px;
+  &:hover {
+    background-color: $lightCyan;
+    color: $veryDarkCyan;
+  }
+  &:active {
+    background-color: $primary;
+    color: $veryDarkCyan;
+  }
+}
+//! ./btn
+.warning {
+  color: #b57b6d;
+  &:focus {
+    outline: 2px solid #b57b6d;
+  }
+}
