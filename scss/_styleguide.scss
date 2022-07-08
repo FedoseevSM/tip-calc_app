@@ -66,6 +66,7 @@
 //! ./btn
 .warning {
   color: #b57b6d;
+  display: none;
   &:focus {
     outline: 2px solid #b57b6d;
   }
