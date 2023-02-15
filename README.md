@@ -6,4 +6,4 @@
 > - **03.07** Добавлены стили и функция счёта чаевых
 > - **08.07** Добавлена валидация для полей ввода
 >
-> **GitHub Pages:** <https://samgxlden.github.io/tip-calc_app/>
+> **GitHub Pages:** <https://fedoseevsm.github.io/tip-calc_app>
